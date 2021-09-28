@@ -1,0 +1,154 @@
+@media screen and (max-width:576px){
+    .hide-sm{
+        display: none !important;
+    }
+    .hide-lg{
+        display: initial !important;
+    }
+    .home-text h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }  
+    .nav{
+        background-color: black;
+    }
+    .nav .logo h3 i{
+        display: initial;
+    } 
+    .nav .navlinks{
+        display: none;
+        flex-direction: column;
+        background-color: black;
+    }
+    .nav .logo{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navlinks a{
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        padding: 1rem 0;
+        text-decoration: none;
+        color: white;
+        font-size: small;
+    }
+    .fullimg{
+        height: 70vh;
+    }
+    .fullimg .smalltolarge{
+        width: 60%;
+    }
+    
+    .about-img, .about-text{
+        height: 50vh;
+    }
+    .whywe-img{
+        height: 40vh;
+    }
+    .whywe-text{
+        height: 60vh;
+    }
+    .about-img .ab-img{
+        top: 10%;
+        left: 5%;
+    }
+    .about-text .ab-text{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
+    .virtualtailor{
+        height: 100vh;
+    }
+    .VT-text{
+        height: 30vh;
+    }
+    .VT-img{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .VT-img img{
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .hide-sm{
+        display: none !important;
+    }
+    .hide-lg{
+        display: initial !important;
+    }
+    .home-text h1{
+        text-align: center;
+    }  
+    .nav{
+        background-color: black;
+    }
+    .nav .logo h3 i{
+        display: initial;
+    } 
+    .nav .navlinks{
+        display: none;
+        flex-direction: column;
+        background-color: black;
+    }
+    .nav .logo{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navlinks a{
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        padding: 1rem 0;
+        text-decoration: none;
+        color: white;
+        font-size: small;
+    }
+    .fullimg{
+        height: 70vh;
+    }
+    .fullimg .smalltolarge{
+        width: 60%;
+    }
+    
+    .about-img, .about-text{
+        height: 30vh;
+    }
+    .whywe-img{
+        height: 40vh;
+    }
+    .whywe-text{
+        height: 30vh;
+    }
+    .about-img .ab-img{
+        top: 10%;
+        left: 5%;
+    }
+    .about-text .ab-text{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
+    .virtualtailor{
+        height: 50vh;
+    }
+    .VT-text{
+        height: 50vh;
+    }
+    .VT-img{
+        height: 50vh;
+      
+    }
+    .VT-img img{
+        height: 40vh;
+    }
+}
