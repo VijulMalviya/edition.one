@@ -1,0 +1,109 @@
+.swiper {
+    height: 80vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .collection .swiper-slide .slide-img {   
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide .slide-img {   
+    width: 100%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slide-img h3{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: white;
+
+  }
+  .swiper-slide .casualshirt1{
+    background-image: url('../Images/shirt-1.webp');
+  }
+  .swiper-slide .casualshirt2{
+    background-image: url('../Images/shirt-2.webp');
+  }
+  .swiper-slide .casualshirt3{
+    background-image: url('../Images/casual-shirt-3.webp');
+  }
+  .swiper-slide .casualshirt4{
+    background-image: url('../Images/casual-shirt-4.webp');
+  }
+  .swiper-slide .businessshirt1{
+    background-image: url('../Images/business-shirt-1.webp');
+  }
+  .swiper-slide .businessshirt2{
+    background-image: url('../Images/business-shirt-2.webp');
+  }
+  .swiper-slide .businessshirt3{
+    background-image: url('../Images/business-shirt-3.webp');
+  }
+  .swiper-slide .businessshirt4{
+    background-image: url('../Images/business-shirt-4.webp');
+  }
+  .swiper-slide .collection1{
+    background-image: url('../Images/allshirts.webp');
+  }
+  .swiper-slide .collection2{
+    background-image: url('../Images/casual.webp');
+  }
+  .swiper-slide .collection3{
+    background-image: url('../Images/business.webp');
+  }
+  .swiper-slide .collection4{
+    background-image: url('../Images/overshirts.webp');
+  }
+  .swiper-slide .collection5{
+    background-image: url('../Images/polos.webp');
+  }
+  .shirt-details{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .shirt-details h4{
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  .swiper-button-next{
+    color: #04DA96;
+    width: 0.5rem !important;
+  }
+  .swiper-button-prev{
+    color: #04DA96;
+  }
+
+

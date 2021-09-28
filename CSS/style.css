@@ -166,22 +166,31 @@ to{
     position: relative;
     overflow: visible;
 }
-.about-img .ab-img{
+.about-img .ab-img,.about-img .tailor-img{
     position: absolute;
     top: 10%;
     left: 10%;
     width: 100%;
     height: 100%;
-    background-image: url('../Images/about-us.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.about-img .ab-img{
+    background-image: url('../Images/about-us.webp');  
+}
+.about-img .tailor-img{
+    background-image: url('../Images/custom-tailor.webp');
 }
 
 .whywe-img,.whywe-text{
     height: 80vh;
 }
 .whywe video{
+    width: 100%;
+    height: 100%;
+}
+.whywe-img img{
     width: 100%;
     height: 100%;
 }
@@ -192,6 +201,11 @@ to{
     position: absolute;
     top: 10%;
     left: 15%;
+}
+.about-text .tailor-text{
+    position: absolute;
+    top: 10%;
+    left: 0%;
 }
 .about-text h5, .whywe-text h5,.VT-text h5{
     font-size: 1rem;
@@ -210,6 +224,12 @@ to{
 .VT-text p{
     line-height: 1.6rem;
     color: whitesmoke;
+}
+.steps2{
+    background-color: #F6F3EE;
+}
+.steps2 video{
+    width: 100%;
 }
 .stepbox h6{
     color: #04DA96;
@@ -250,4 +270,19 @@ to{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+.casualshirt,.collection{
+    background: linear-gradient(to left , #F6F3EE 50%,white 50%);
+}
+.businessshirt{
+    background: linear-gradient(to right , #F6F3EE 50%,white 50%);
+}
+
+
+.casualshirt h5,.businessshirt h5,.collection h5{
+    font-size: small;
+    color: #04DA96;
+}
+.casualshirt h2,.businessshirt h2, .collection h2{
+    font-weight: 300;
 }
