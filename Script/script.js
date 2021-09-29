@@ -1,3 +1,4 @@
+AOS.init();
 
 $(document).ready(function(){
     $("#bars").click(function(){
@@ -35,10 +36,24 @@ $('.main-text h1').textillate({
         effect: 'fadeInUp'
     },
     loop: true,
+    autoStart: true,
     out: {
         effect: 'fadeOutRight'
     }
 })
+
+$('.smalltolarge h2').textillate({
+  in: {
+      effect: 'bounce'
+  },
+  loop: true,
+  autoStart: true,
+  out: {
+      effect: 'bounce'
+  }
+})
+
+
 gsap.to('#smalltolarge',{
   scrollTrigger:{
       trigger: "#btn",
@@ -47,8 +62,40 @@ gsap.to('#smalltolarge',{
       pin: "#fullimg"
   },
   width:"80%",
-  greyscale : "1"
 })
+
+gsap.to('#ab-img',{
+  scrollTrigger:{
+      trigger: "#downscroll",
+      start : "top top",
+      scrub: 2,
+      pin: "#about"
+  },
+  width:"100%",
+ 
+})
+gsap.to('#tailor-img',{
+  scrollTrigger:{
+      trigger: "#tailor",
+      start : "top top",
+      scrub: 2,
+      pin: "#tailor"
+  },
+  width:"70%",
+})
+
+gsap.to('#tailor-img1',{
+  scrollTrigger:{
+      trigger: "#tailor",
+      start : "top top",
+      scrub: 2,
+      pin: "#tailor"
+  },
+  width:"90%",
+})
+
+
+
 var mq = window.matchMedia( "(max-width: 992px)" );
 if (mq.matches) {
 
@@ -60,7 +107,6 @@ if (mq.matches) {
             pin: "#fullimg"
         },
         width:"100%",
-        greyscale : "1"
     })
  }
 

@@ -4,8 +4,7 @@
 
   .swiper-slide {
     text-align: center;
-    
-
+    /* overflow: hidden !important; */
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -47,7 +46,11 @@
     text-transform: uppercase;
     font-size: 2.5rem;
     color: white;
+  }
 
+  .swiper-slide:hover{
+    transform: scale(1.06);
+    transition: all 1s;
   }
   .swiper-slide .casualshirt1{
     background-image: url('../Images/shirt-1.webp');

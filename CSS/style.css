@@ -160,16 +160,18 @@ to{
 }
 
 .about-img{
+    /* width: 0%; */
     height: 80vh;
     background-color: #F6F3EE;
     position: relative;
     overflow: visible;
 }
 .about-img .ab-img,.about-img .tailor-img{
+    /* width: 0%; */
     position: absolute;
     top: 10%;
     left: 10%;
-    width: 100%;
+    width: 0%;
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -227,7 +229,6 @@ to{
 .steps2{
     /* height: 100vh; */
     background-color: #F6F3EE;
- 
 }
 .steps2 video{
     width: 100%;
@@ -261,9 +262,9 @@ to{
     align-items: center;
 }
 .VT-img{
-    height: 80vh;
-    position: relative;
     
+    height: 80vh;
+    position: relative; 
 }
 .VT-img img{
     height: 70vh;
@@ -335,6 +336,5 @@ to{
     margin-top: 1rem;
 }
 .footer span{
-    color: #04DA96;
-   
+    color: #04DA96;  
 }
