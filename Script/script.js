@@ -39,19 +39,16 @@ $('.main-text h1').textillate({
         effect: 'fadeOutRight'
     }
 })
-
 gsap.to('#smalltolarge',{
-    scrollTrigger:{
-        trigger: "#btn",
-        start : "top top",
-        scrub: 2,
-        pin: "#fullimg"
-    },
-    width:"80%",
-    greyscale : "1"
+  scrollTrigger:{
+      trigger: "#btn",
+      start : "top top",
+      scrub: 2,
+      pin: "#fullimg"
+  },
+  width:"80%",
+  greyscale : "1"
 })
-
-
 var mq = window.matchMedia( "(max-width: 992px)" );
 if (mq.matches) {
 

@@ -13,24 +13,13 @@ var swiper = new Swiper(".mySwiper", {
  
      var swiper = new Swiper(".mySwiper", {
          slidesPerView: 2,
-         spaceBetween: 30,
+         spaceBetween: 20,
          navigation: {
              nextEl: ".swiper-button-next",
              prevEl: ".swiper-button-prev",
            }
        });
   }
-  var mq = window.matchMedia( "(max-width: 576px)" );
-  if (mq.matches) {
-  
-      var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 1,
-          spaceBetween: 30,
-          navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            }
-        });
-   }
+
   
   

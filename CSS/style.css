@@ -90,7 +90,6 @@ a:hover{
 .button{
     text-decoration: none;
     padding:1rem;
-  
     text-align: center;
     display: flex;
     justify-content: center;
@@ -102,12 +101,12 @@ a:hover{
     margin-right: 0.6rem;
 }
 .dark-btn{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     background-color: #fff;
     color: black;
 }
 .light-btn{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: black;
     color: white;
 }
@@ -207,11 +206,11 @@ to{
     top: 10%;
     left: 0%;
 }
-.about-text h5, .whywe-text h5,.VT-text h5{
+.about-text h5, .whywe-text h5,.VT-text h5, .testimonial-inner h5{
     font-size: 1rem;
     color: #04DA96;
 }
-.about-text h2, .whywe-text h2,.VT-text h2{
+.about-text h2, .whywe-text h2,.VT-text h2, .testimonial-inner h2{
     font-weight: 300;
 }
 .about-text p ,.whywe-text p, .VT-text p{
@@ -226,7 +225,9 @@ to{
     color: whitesmoke;
 }
 .steps2{
+    /* height: 100vh; */
     background-color: #F6F3EE;
+ 
 }
 .steps2 video{
     width: 100%;
@@ -277,12 +278,63 @@ to{
 .businessshirt{
     background: linear-gradient(to right , #F6F3EE 50%,white 50%);
 }
-
-
 .casualshirt h5,.businessshirt h5,.collection h5{
     font-size: small;
     color: #04DA96;
 }
 .casualshirt h2,.businessshirt h2, .collection h2{
     font-weight: 300;
+}
+
+.testimonial .test-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonial .test-box img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+.testimonial .test-box h6{
+    color: #04DA96;
+}
+.testimonial .test-box p{
+    color: white;
+    text-align: center;
+}
+.footer{
+    background-color: #F6F3EE;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+.footer .socialmedia{
+    display: flex;
+    justify-content: center;
+}
+.footer .socialmedia a{
+    color: white;
+}
+.footer .socialmedia i{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background-color: #04DA96;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.footer li{
+    list-style: none;
+    margin-top: 1rem;
+}
+.footer span{
+    color: #04DA96;
+   
 }

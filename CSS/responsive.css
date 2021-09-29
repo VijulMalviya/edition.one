@@ -81,8 +81,23 @@
         height: 40vh;
     }
     .swiper {
-        height: 50vh !important;
+        height: 30vh !important;
       }
+      .shirt-details{
+          height: 15% !important;
+          flex-direction: column;
+          justify-content: center !important;
+      }
+      .swiper-slide .slide-img {
+          height: 85% !important;
+      }
+      .slide-img h3{
+      
+        font-size: 1.5rem !important;
+   
+    
+      }
+    
 }
 
 @media screen and (min-width:768px) and (max-width:992px){
